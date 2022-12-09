@@ -1,0 +1,173 @@
+h1, h2, h3, h4, h5 {
+    color: #325f93 !important;
+}
+
+
+.remove-all-styles * {
+    all: unset;
+}
+
+.bd-toc {
+    display: none;
+}
+
+#navbar {
+    height: 58px;
+    padding-top: 12px;
+    width: 100%;
+    background-color: #325f93;
+}
+
+.hydrata-logo {
+    font-size: 20px;
+    line-height: 22px;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 16px;
+    width: 122px;
+    height: 65px;
+    background-image: url("logo-bg-lowres.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.navbar-left {
+    display: block;
+    list-style-type: none;
+    vertical-align: top;
+    text-align: left;
+    padding: 0;
+    color: #ffffff!important;
+    line-height: 22px;
+}
+
+.navbar-left > ul {
+    margin-left: 135px;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-left > li {
+    float: left;
+    margin-top: -4px;
+}
+
+.navbar-left > li > a {
+    cursor: pointer;
+    display: block;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-left > li:last-child {
+    margin-top: -4px;
+}
+
+.container-xl > .row {
+    position: fixed;
+    top: 72px;
+}
+
+.navbar-brand-box {
+    padding-top: 0 !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-right {
+        margin-right:0
+    }
+}
+
+/*Navbar colours:*/
+
+.navbar-inverse {
+    background-color: #175582;
+    border-color: #365739;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #227dc2;
+}
+
+.navbar-inverse .navbar-text {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #82b0e0;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #82b0e0;
+    background-color: #4f6e96;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #82b0e0;
+    background-color: #4f6e96;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #4f6e96;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #4f6e96;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-link {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-link:hover {
+    color: #82b0e0;
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #ffffff;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #82b0e0;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #82b0e0;
+        background-color: #4f6e96;
+    }
+}
