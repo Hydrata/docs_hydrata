@@ -1,17 +1,22 @@
 # About
 
-about intro here
+Hydrata is an online user-interface for surface water modelling.
 
-## About Heading two
+It provides an environment to build, run, collaborate and publish surface water models.
 
-Two text
+The primary interface to your models is the web brower. There is:
 
-### About Heading three 
+* no software to install,
+* no need for dedicated hardware
 
-Three text.
+We believe this enables seamless, accurate collaboration.
 
-## About Heading TwoB
+Of course, working online isn't always appropriate. You are always free to download your data and models. You can
+modify and run models locally on your machines then publish the updates online.
 
-asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf 
-asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf 
-asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf asdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdfasdf 
+We use the ANUGA two-dimensional hydrodynamic model as the core computational engine. Using an open-source engine enables true 
+collaboration across organisations, and between past and future modelling efforts. 
+
+Once the project owner chooses an access policy, anyone permitted can access, update and run the model. This enables 
+transparent, defensible and open verification of work to build trust and ensure models get better over time, 
+not going out-of-date on a hard drive somewhere.

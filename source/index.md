@@ -1,13 +1,8 @@
 # Welcome.
 
-Hydrata is an online user-interface for the open-source ANUGA hydrodynamic model.
-
-It provides an environment to build, run, collaborate and publish surface water models.
-
-Some final text
+Hydrata is an online user-interface for surface water modelling.
 
 ```{toctree}
-:hidden:
 :maxdepth: 4
 
 about.md
@@ -15,16 +10,21 @@ getting-started.md
 ```
 
 ```{toctree}
-:hidden:
+:maxdepth: 4
 :caption: Inputs
 
 inputs/overview.md
+inputs/base-maps.md
 inputs/elevation.md
+inputs/boundaries.md
 inputs/inflows.md
+inputs/mesh-regions.md
+inputs/friction-maps.md
+inputs/structures.md
+inputs/networks.md
 ```
 
 ```{toctree}
-:hidden:
 :maxdepth: 4
 :caption: Running Scenarios
 

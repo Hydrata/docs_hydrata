@@ -1,4 +1,4 @@
-# Overview
+# Networks
 
 Nam pretium turpis a eros malesuada gravida. Phasellus non porta nisi. Mauris interdum, quam in 
 aliquam tempor, sem purus elementum elit, vel ornare mauris nisl vel purus. Etiam a elit eget 
@@ -7,10 +7,10 @@ ultrices. Sed dapibus, urna nec pretium dignissim, nisl dui gravida ipsum, vitae
 erat posuere orci. Etiam sit amet placerat nisl. Aenean elit nisi, hendrerit non hendrerit quis, 
 porta at felis. Nullam a viverra tellus.
 
-## Creating New Datasets
 
-asdf
-
-## Renaming Datasets
-
-asdf
+```{toctree}
+:maxdepth: 2
+networks/catchments.md
+networks/links.md
+networks/nodes.md
+```
