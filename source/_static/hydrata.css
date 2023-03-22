@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5 {
 .navbar-left > ul {
     margin-left: 135px;
     list-style-type: none;
+    overflow: hidden;
     background-color: #333;
 }
 
@@ -70,6 +71,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .container-xl > .row {
+    position: fixed;
     top: 72px;
 }
 

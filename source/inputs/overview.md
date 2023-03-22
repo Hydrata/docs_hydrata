@@ -6,11 +6,3 @@ nulla placerat malesuada nec vitae felis. Maecenas in consequat nibh. Nam euismo
 ultrices. Sed dapibus, urna nec pretium dignissim, nisl dui gravida ipsum, vitae porta nibh 
 erat posuere orci. Etiam sit amet placerat nisl. Aenean elit nisi, hendrerit non hendrerit quis, 
 porta at felis. Nullam a viverra tellus.
-
-## Creating New Datasets
-
-asdf
-
-## Renaming Datasets
-
-asdf
