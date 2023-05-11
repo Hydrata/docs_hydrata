@@ -12,8 +12,8 @@ h1, h2, h3, h4, h5 {
 }
 
 #navbar {
-    height: 44px;
-    padding-top: 4px;
+    height: 58px;
+    padding-top: 12px;
     width: 100%;
     background-color: #325f93;
 }
@@ -24,11 +24,11 @@ h1, h2, h3, h4, h5 {
     float: left;
     box-sizing: border-box;
     margin-left: 16px;
-    width: 115px;
-    height: 42px;
+    width: 122px;
+    height: 65px;
     background-image: url("logo-bg-lowres.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: auto;
 
 }
 
