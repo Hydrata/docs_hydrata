@@ -18,3 +18,13 @@ help:
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+clean:
+	-rm -rf $(BUILDDIR)/*
+	-rm -rf $(SOURCEDIR)/reference
+	-rm -rf $(SOURCEDIR)/topic
+	-rm -rf $(SOURCEDIR)/tutorial/services.rst
+
+deploy:
+	aws s3 rm s3://docs.hydrata.com/ --recursive
+	aws s3 cp "$(BUILDDIR)/html/" s3://docs.hydrata.com/  --recursive
