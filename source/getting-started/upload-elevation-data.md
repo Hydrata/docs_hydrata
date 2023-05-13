@@ -13,7 +13,7 @@ into the appropriate Universal Transverse Mercator (UTM) zone. This zone will al
 created layers and data in your project. 
 ```
 
-![](../_static/getting-started-upload-elevation.gif)
+![](../_static/getting-started-upload-elevation-2.gif)
 
 The elevation data will be uploaded and imported. Note this process may take 3 to 5 minutes in total. Don't
 worry if you close the browser or do something else - the processing will continue in the background. Once it
