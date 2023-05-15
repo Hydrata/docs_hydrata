@@ -12,4 +12,7 @@ getting-started/create-a-new-project.md
 getting-started/upload-elevation-data.md
 getting-started/define-boundaries.md
 getting-started/define-rainfall.md
+getting-started/build-a-scenario.md
+getting-started/run-a-scenario.md
+getting-started/review-results.md
 ```
