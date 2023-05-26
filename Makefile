@@ -28,3 +28,4 @@ clean:
 deploy:
 	aws s3 rm s3://docs.hydrata.com/ --recursive
 	aws s3 cp "$(BUILDDIR)/html/" s3://docs.hydrata.com/  --recursive
+	aws cloudfront create-invalidation --distribution-id E2L35PMYI8RXCF --paths "/*"
