@@ -1,3 +1,0 @@
-# Rainfall
-
-Rainfall flow text

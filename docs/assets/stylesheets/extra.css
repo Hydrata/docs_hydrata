@@ -1,0 +1,6 @@
+/* Hydrata brand colours */
+:root {
+  --md-primary-fg-color: #325f93;
+  --md-primary-fg-color--light: #4a7bb5;
+  --md-primary-fg-color--dark: #244775;
+}

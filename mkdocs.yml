@@ -1,0 +1,68 @@
+site_name: Hydrata Documentation
+site_url: https://docs.hydrata.com
+site_description: Documentation for Hydrata — online surface water modelling platform
+
+theme:
+  name: material
+  favicon: assets/favicon.ico
+  logo: assets/logo-bg-lowres.png
+  palette:
+    scheme: default
+    primary: custom
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+  custom_dir: docs/overrides
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/index.md
+    - Prerequisites: getting-started/prerequisites.md
+    - Create a New Project: getting-started/create-a-new-project.md
+    - Upload Elevation Data: getting-started/upload-elevation-data.md
+    - Define Boundaries: getting-started/define-boundaries.md
+    - Define Rainfall: getting-started/define-rainfall.md
+  - Inputs:
+    - inputs/overview.md
+    - Elevation: inputs/elevation.md
+    - Boundaries: inputs/boundaries.md
+    - Inflows:
+      - inputs/inflows/index.md
+      - Rainfall: inputs/inflows/rainfall.md
+      - Surface Flow: inputs/inflows/surface-flow.md
+    - Mesh Regions: inputs/mesh-regions.md
+    - Friction Maps: inputs/friction-maps.md
+    - Structures: inputs/structures.md
+  - Running Scenarios:
+    - Configuring Runs: running-scenarios/configuring-runs.md
+    - Selecting Inputs: running-scenarios/selecting-inputs.md
+  - ANUGA:
+    - Concepts: anuga/concepts.md
+    - Package Format: anuga/package-format.md
+    - scenario.json Reference: anuga/scenario-json.md
+    - Defaults: anuga/defaults.md
+    - Standalone Usage: anuga/getting-started.md

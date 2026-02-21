@@ -1,3 +1,0 @@
-# Define rainfall
-
-text
