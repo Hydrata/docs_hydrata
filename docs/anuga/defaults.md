@@ -32,7 +32,7 @@ All hardcoded simulation constants are defined in `run_anuga/defaults.py`. These
 
 | Constant | Value | Description |
 |----------|-------|-------------|
-| `MAX_TRIANGLE_AREA` | 10,000,000 | Maximum triangle area (m^2) in the mesher configuration. Acts as an upper bound for the coarsest possible mesh. |
+| `MAX_TRIANGLE_AREA` | 10_000_000 | Maximum triangle area (m^2) in the mesher configuration. Acts as an upper bound for the coarsest possible mesh. |
 
 ### Post-processing
 

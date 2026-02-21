@@ -72,7 +72,7 @@ run-anuga --package_dir examples/australian_floodplain/
 ```
 
 !!! note
-    The example requires a DEM file at `examples/australian_floodplain/inputs/dem.tif`. Download a 1m DEM from the [Geoscience Australia ELVIS portal](https://elevation.fsdf.org.au/) and clip it to the example boundary extent (321000-321200 E, 5812000-5812200 N in EPSG:28355).
+    The example includes a 200x200m DEM clipped from 1m elevation data sourced from the [Geoscience Australia ELVIS portal](https://elevation.fsdf.org.au/) (CC BY 4.0). See `examples/australian_floodplain/LICENSE_DATA.md` for attribution.
 
 ## Inspecting outputs
 

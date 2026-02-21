@@ -17,7 +17,7 @@ theme:
     - search.suggest
     - content.code.copy
     - content.tabs.link
-  custom_dir: docs/overrides
+  # custom_dir: docs/overrides  # uncomment when adding theme overrides
 
 extra_css:
   - assets/stylesheets/extra.css
