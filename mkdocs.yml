@@ -66,3 +66,19 @@ nav:
     - scenario.json Reference: anuga/scenario-json.md
     - Defaults: anuga/defaults.md
     - Standalone Usage: anuga/getting-started.md
+  - Compare:
+    - compare/index.md
+    - ANUGA vs HEC-RAS: compare/anuga-vs-hecras.md
+    - Flood Modeling Software 2026: compare/flood-modeling-software.md
+  - MCP Server:
+    - mcp/index.md
+    - Getting Started: mcp/getting-started.md
+    - Claude Code Setup: mcp/setup-claude-code.md
+    - GitHub Copilot Setup: mcp/setup-copilot.md
+    - Cursor Setup: mcp/setup-cursor.md
+  - Validation:
+    - validation/index.md
+    - Merewether Benchmark: validation/merewether.md
+    - Regulatory Acceptance: validation/regulatory-acceptance.md
+  - Cloud ANUGA:
+    - cloud-anuga/index.md
