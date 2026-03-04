@@ -1,6 +1,6 @@
 # Cloud ANUGA
 
-Run ANUGA flood simulations in the cloud. No Python environment, no desktop install, no IT department approval.
+Professional ANUGA flood simulations with managed data, cloud compute, and published results. No Python environment, no desktop install.
 
 ## What is Cloud ANUGA?
 

@@ -66,10 +66,10 @@ nav:
     - scenario.json Reference: anuga/scenario-json.md
     - Defaults: anuga/defaults.md
     - Standalone Usage: anuga/getting-started.md
-  - Compare:
+  - Why Hydrata:
     - compare/index.md
-    - ANUGA vs HEC-RAS: compare/anuga-vs-hecras.md
-    - Flood Modeling Software 2026: compare/flood-modeling-software.md
+    - Why ANUGA: compare/why-anuga.md
+    - Flood Modeling Challenges: compare/flood-modeling-challenges.md
   - MCP Server:
     - mcp/index.md
     - Getting Started: mcp/getting-started.md

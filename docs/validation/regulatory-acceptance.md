@@ -11,7 +11,7 @@ ANUGA is accepted by regulators in multiple jurisdictions for flood studies and 
 | **ACT Government** | Accepted | Used in Canberra flood mapping projects |
 | **Pacific Island Countries** | Accepted | Used in PACFLOOD tsunami inundation mapping (Tonga, Samoa, Fiji, Vanuatu) |
 | **UK Environment Agency** | Not tested | ANUGA not currently listed; TUFLOW and MIKE+ are standard |
-| **FEMA (USA)** | Not standard | HEC-RAS is the US standard; ANUGA could be submitted for approval on a case-by-case basis |
+| **FEMA (USA)** | Not standard | ANUGA could be submitted for approval on a case-by-case basis |
 | **Australian state governments** | Varies | Generally accepted where the modeller can demonstrate competence and validation |
 
 ## Key Points for Regulatory Submissions
@@ -39,7 +39,7 @@ ANUGA is developed by:
 - **Geoscience Australia** — Australia's national geoscience agency (Department of Industry, Science and Resources)
 - **Australian National University** — Mathematical Sciences Institute
 
-This is comparable institutional backing to HEC-RAS (US Army Corps of Engineers) and MIKE (Danish Hydraulic Institute).
+This is government-agency-grade institutional backing — comparable to the organisations behind other major hydraulic solvers.
 
 ## Hydrata Cloud and Regulatory Work
 

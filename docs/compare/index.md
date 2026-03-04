@@ -1,30 +1,26 @@
-# Compare Flood Modeling Software
+# Why Hydrata
 
-Hydrata runs the ANUGA open-source 2D flood solver in the cloud. How does it compare to other hydraulic modeling platforms?
+Engineers spend roughly 68% of flood modeling project time on setup and data processing — mesh generation, boundary definition, friction mapping, DEM preprocessing. Only about 8% is spent actually running simulations. Hydrata addresses the 68%, not just the 8%.
 
-## Comparisons
+## The Problem
 
-| Comparison | Summary |
+Flood model setup is the most time-consuming task in hydraulic engineering. It relies on repetitive manual work and subjective decision-making. If a mesh is regenerated, all hand editing is lost. Models live as files on individual machines with no version control, no collaboration, and no audit trail.
+
+Meanwhile, ANUGA — one of the most capable 2D solvers available — has been locked behind a Python scripting interface for 20 years. Excellent physics, near-zero accessibility for practicing engineers.
+
+## What Hydrata Does Differently
+
+| Traditional Workflow | Hydrata |
 |---|---|
-| [ANUGA vs HEC-RAS](anuga-vs-hecras.md) | Finite-volume vs finite-difference, mesh types, regulatory acceptance, agent integration |
-| [Flood Modeling Software 2026](flood-modeling-software.md) | Multi-platform comparison: HEC-RAS, TUFLOW, ANUGA, MIKE+, Flood Platform |
+| Convert DEM in GIS, export, import to model | Upload DEM directly — Hydrata handles projection and tiling |
+| Define boundaries in separate tools | Draw boundaries in the browser on your terrain data |
+| Hand-edit mesh in desktop software | Mesh generated from your DEM and region definitions |
+| Run simulation on local hardware | Submit to cloud compute — results in minutes |
+| Post-process in GIS, format for reports | Results published as OGC WMS layers, shareable via URL |
+| Email model files to colleagues | Team works on the same project, every change tracked |
 
-## Why ANUGA?
+## Learn More
 
-ANUGA uses a **finite-volume method on unstructured triangular meshes**. This makes it particularly well-suited for:
-
-- **Complex topography** — coastal, estuarine, and urban terrain where rectangular grids struggle
-- **Wetting and drying** — robust handling of flow fronts moving across dry land
-- **Dam break and tsunami** — validated for rapid transient flows
-- **Open science** — GPL licence, no vendor lock-in, portable model files
-
-ANUGA was developed by **Geoscience Australia** and the **Australian National University** and has been validated against 30+ benchmark problems including laboratory experiments, field observations, and analytical solutions.
-
-## Hydrata's Advantage
-
-Hydrata is the **only hydraulic modeling platform with a native MCP server**. No other platform — HEC-RAS, TUFLOW, MIKE+, or Flood Platform — can be called directly from an AI coding assistant.
-
-- **Browser interface** — no desktop install, no Python environment
-- **MCP server** — Claude Code, GitHub Copilot, Cursor integration
-- **REST API** — full programmatic access to projects, scenarios, and results
-- **AWS Batch compute** — $0.065/hr, no queues, auto-scaling
+- [Why ANUGA](why-anuga.md) — the solver behind Hydrata, and why it matters
+- [Flood Modeling Challenges](flood-modeling-challenges.md) — industry-wide pain points and how Hydrata addresses them
+- [Validation](../validation/index.md) — benchmark results and regulatory acceptance

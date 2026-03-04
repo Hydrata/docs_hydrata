@@ -1,6 +1,6 @@
 # Hydrata MCP Server
 
-Hydrata provides a native [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for AI coding assistants. It is the **first and only hydraulic modeling platform** with MCP support.
+Hydrata provides a native [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for AI coding assistants. Manage flood model inputs, run simulations, and retrieve results directly from your AI assistant.
 
 **Endpoint:** `https://hydrata.com/mcp/`
 **Transport:** StreamableHTTP
