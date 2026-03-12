@@ -25,8 +25,7 @@ The benchmark was developed by the Australian Rainfall and Runoff (ARR) project 
 
 | Metric | Value |
 |---|---|
-| **Compute time** | ~90 seconds (AWS Batch c7a.xlarge) |
-| **Compute cost** | $0.017 per run |
+| **Compute time** | ~90 seconds |
 | **Peak depth at outlet** | 1.42m |
 | **RMSE vs observed** | Within published ANUGA validation range |
 

@@ -4,10 +4,10 @@ Professional ANUGA flood simulations with managed data, cloud compute, and publi
 
 ## What is Cloud ANUGA?
 
-Hydrata hosts the [ANUGA](https://github.com/anuga-community/anuga_core) open-source 2D flood solver on AWS cloud infrastructure. You upload terrain data, configure scenarios, and Hydrata handles:
+Hydrata hosts the [ANUGA](https://github.com/anuga-community/anuga_core) open-source 2D flood solver on cloud infrastructure. You upload terrain data, configure scenarios, and Hydrata handles:
 
 - **Mesh generation** — automatic triangulation from your DEM and region definitions
-- **Compute provisioning** — AWS Batch allocates resources on demand
+- **Compute provisioning** — cloud compute allocated on demand
 - **Execution** — ANUGA runs on optimized compute instances
 - **Results publishing** — flood outputs published as OGC WMS/WFS layers
 
@@ -18,7 +18,7 @@ Your DEM + scenario config
         ↓
     Hydrata API / MCP / Browser
         ↓
-    AWS Batch (c7a.xlarge spot, $0.065/hr)
+    Cloud compute (optimized instances)
         ↓
     ANUGA solver (unmodified)
         ↓
@@ -33,20 +33,6 @@ Your DEM + scenario config
 | **MCP Server** | AI-assisted modeling workflows | [MCP Server](../mcp/index.md) |
 | **REST API** | Programmatic access, automation | [API Reference](https://hydrata.com/api/v2/) |
 | **Python (local)** | Running locally with `run_anuga` | [Standalone Usage](../anuga/getting-started.md) |
-
-## Pricing
-
-| Tier | Cost | Includes |
-|---|---|---|
-| **Free** | $0 | 3 simulation runs, no credit card required |
-| **Pay-as-you-go** | $0.25–0.35/hr | Unlimited runs, AWS Batch spot instances |
-| **Team** | Contact us | Shared workspace, dedicated compute, priority support |
-
-Typical costs:
-
-- **Merewether benchmark** (small urban model): ~$0.017/run
-- **Medium catchment** (1–5 km²): ~$0.50–2.00/run
-- **Large floodplain** (50+ km²): ~$5–20/run
 
 ## Solver Integrity
 

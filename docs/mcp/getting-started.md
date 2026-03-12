@@ -87,7 +87,7 @@ The assistant calls `create_scenario` with your parameters.
 > Run the simulation
 ```
 
-The assistant calls `run_simulation`. The job runs on AWS Batch — typically 2–10 minutes depending on model size.
+The assistant calls `run_simulation`. The job typically takes 2–10 minutes depending on model size.
 
 ```
 > Check the status
